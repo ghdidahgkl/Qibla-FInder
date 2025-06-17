@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AA6A8632E00B8830009FD47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6A85F2E00B8830009FD47 /* ContentView.swift */; };
+		4AA6A8632E00B8830009FD47 /* QiblaMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6A85F2E00B8830009FD47 /* QiblaMapView.swift */; };
 		4AA6A8642E00B8830009FD47 /* QiblaFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6A8612E00B8830009FD47 /* QiblaFinderApp.swift */; };
 		4AA6A8652E00B8830009FD47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA6A85E2E00B8830009FD47 /* Assets.xcassets */; };
-		4AA6A86C2E00B8ED0009FD47 /* CampassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6A86B2E00B8ED0009FD47 /* CampassView.swift */; };
-		4AA6A86E2E00B9240009FD47 /* QiblaMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6A86D2E00B9240009FD47 /* QiblaMapView.swift */; };
+		4AA6A86E2E00B9240009FD47 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6A86D2E00B9240009FD47 /* MapViewRepresentable.swift */; };
 		4AA6A8702E00B9770009FD47 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6A86F2E00B9770009FD47 /* LocationManager.swift */; };
-		4AA6A8742E00B9CA0009FD47 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6A8732E00B9CA0009FD47 /* Double.swift */; };
+		4AC5D1D92E016C4600D4F2A5 /* MapKitRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC5D1D82E016C4600D4F2A5 /* MapKitRect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4AA6A84F2E00913E0009FD47 /* QiblaFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiblaFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA6A85E2E00B8830009FD47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4AA6A85F2E00B8830009FD47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4AA6A85F2E00B8830009FD47 /* QiblaMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaMapView.swift; sourceTree = "<group>"; };
 		4AA6A8602E00B8830009FD47 /* QiblaFinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QiblaFinder.entitlements; sourceTree = "<group>"; };
 		4AA6A8612E00B8830009FD47 /* QiblaFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaFinderApp.swift; sourceTree = "<group>"; };
-		4AA6A86B2E00B8ED0009FD47 /* CampassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampassView.swift; sourceTree = "<group>"; };
-		4AA6A86D2E00B9240009FD47 /* QiblaMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaMapView.swift; sourceTree = "<group>"; };
+		4AA6A86D2E00B9240009FD47 /* MapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
 		4AA6A86F2E00B9770009FD47 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		4AA6A8732E00B9CA0009FD47 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		4AC5D1D82E016C4600D4F2A5 /* MapKitRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitRect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,7 @@
 		4AA6A8662E00B8890009FD47 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				4AA6A8722E00B9C60009FD47 /* Extensions */,
+				4AC5D1D72E016C3300D4F2A5 /* Extensions */,
 				4AA6A8672E00B8940009FD47 /* Views */,
 				4AA6A8692E00B8B40009FD47 /* ViewModel */,
 				4AA6A8682E00B8A70009FD47 /* UikitBridge */,
@@ -80,8 +78,7 @@
 		4AA6A8672E00B8940009FD47 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4AA6A86A2E00B8D40009FD47 /* Assistance */,
-				4AA6A85F2E00B8830009FD47 /* ContentView.swift */,
+				4AA6A85F2E00B8830009FD47 /* QiblaMapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -89,7 +86,7 @@
 		4AA6A8682E00B8A70009FD47 /* UikitBridge */ = {
 			isa = PBXGroup;
 			children = (
-				4AA6A86D2E00B9240009FD47 /* QiblaMapView.swift */,
+				4AA6A86D2E00B9240009FD47 /* MapViewRepresentable.swift */,
 			);
 			path = UikitBridge;
 			sourceTree = "<group>";
@@ -102,18 +99,10 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		4AA6A86A2E00B8D40009FD47 /* Assistance */ = {
+		4AC5D1D72E016C3300D4F2A5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				4AA6A86B2E00B8ED0009FD47 /* CampassView.swift */,
-			);
-			path = Assistance;
-			sourceTree = "<group>";
-		};
-		4AA6A8722E00B9C60009FD47 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				4AA6A8732E00B9CA0009FD47 /* Double.swift */,
+				4AC5D1D82E016C4600D4F2A5 /* MapKitRect.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -190,12 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA6A8632E00B8830009FD47 /* ContentView.swift in Sources */,
-				4AA6A86C2E00B8ED0009FD47 /* CampassView.swift in Sources */,
+				4AA6A8632E00B8830009FD47 /* QiblaMapView.swift in Sources */,
 				4AA6A8702E00B9770009FD47 /* LocationManager.swift in Sources */,
+				4AC5D1D92E016C4600D4F2A5 /* MapKitRect.swift in Sources */,
 				4AA6A8642E00B8830009FD47 /* QiblaFinderApp.swift in Sources */,
-				4AA6A8742E00B9CA0009FD47 /* Double.swift in Sources */,
-				4AA6A86E2E00B9240009FD47 /* QiblaMapView.swift in Sources */,
+				4AA6A86E2E00B9240009FD47 /* MapViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +320,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs your location to show the Qibla direction even when in background";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show the Qibla direction";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -375,7 +362,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs your location to show the Qibla direction even when in background";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show the Qibla direction";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
